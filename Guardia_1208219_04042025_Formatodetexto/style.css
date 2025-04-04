@@ -1,0 +1,31 @@
+.custom-bg-color-red {
+    background-color: red;
+}
+
+.custom-bg-color-blue {
+    background-color: blue;
+}
+
+#darth-vader {
+    font-size: 20px;
+}
+
+#luke-skywalker {
+    font-style: italic;
+}
+
+.custom-border-style-soldier {
+    border: 1px dashed black;
+}
+
+.custom-letter-spacing-style-soldier {
+    letter-spacing: 10px;
+}
+
+.custom-text-align-style-supporter {
+    text-align: center;
+}
+
+.custom-text-transform-style-ships {
+    text-transform: uppercase;
+}
