@@ -1,0 +1,13 @@
+.custom-cover-image-style {
+    height: 30rem;
+    object-fit: cover;
+}
+
+.custom-footer-image-style {
+    height: 14rem;
+    object-fit: cover;
+}
+
+.custom-bg-color-card-style {
+    background-color: #d2d2d2 !important;
+}
