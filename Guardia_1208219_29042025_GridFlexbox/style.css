@@ -1,0 +1,13 @@
+.custom-image-style-1 {
+    height: 25rem;
+    object-fit: cover;
+}
+
+.custom-image-style-2 {
+    height: 51rem;
+    object-fit: cover;
+}
+
+.custom-bg-color-footer-style {
+    background-color: #f8f9fa;
+}
