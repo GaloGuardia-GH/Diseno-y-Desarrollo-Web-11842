@@ -1,0 +1,26 @@
+.custom-color-home-title-style {
+    color: #008000;
+}
+
+.custom-cover-image-style {
+    height: 15rem;
+    object-fit: cover;
+}
+
+.custom-cover-image-carousel-style {
+    height: 45rem;
+    object-fit: cover;
+}
+
+.custom-bg-color-menu-divider-style {
+    background-color: #afafaf;
+}
+
+.custom-bg-color-home-text-style {
+    background-color: black;
+    color: white;
+}
+
+.custom-bg-color-footer-style {
+    background-color: #f8f9fa;
+}
