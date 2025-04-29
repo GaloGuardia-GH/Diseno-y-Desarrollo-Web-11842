@@ -1,6 +1,6 @@
 .custom-bg-img-body {
     background-image: URL(./assets/images/5630939.jpg);
-    background-size: cover;
+    background-size: auto;
 }
 
 .custom-bg-navbar {
