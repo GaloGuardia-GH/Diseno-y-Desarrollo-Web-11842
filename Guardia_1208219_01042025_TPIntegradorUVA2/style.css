@@ -1,0 +1,13 @@
+.custom-bg-img-body {
+    background-image: URL(../assets/images/5630939.jpg);
+    background-size: cover;
+}
+
+.custom-bg-navbar {
+    background-color: transparent !important;
+}
+
+.navbar-brand,
+.nav-link {
+    color: white !important;
+}
