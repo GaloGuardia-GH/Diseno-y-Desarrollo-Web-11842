@@ -1,5 +1,5 @@
 .custom-bg-img-body {
-    background-image: URL(../assets/images/5630939.jpg);
+    background-image: URL(./assets/images/5630939.jpg);
     background-size: cover;
 }
 
@@ -8,6 +8,15 @@
 }
 
 .navbar-brand,
-.nav-link {
+.nav-link,
+.custom-color-main-card-title {
     color: white !important;
+}
+
+.custom-bg-color-footer-style {
+    background-color: #f8f9fa;
+}
+
+.custom-height-textarea-style {
+    height: 10rem !important;
 }
