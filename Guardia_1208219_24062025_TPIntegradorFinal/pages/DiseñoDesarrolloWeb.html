@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JSBootstrap - TP Integrador UVA 2</title>
+        <link rel="stylesheet" href="../style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/5cce9c02bc.js" crossorigin="anonymous"></script>
+        <script src="../js/script.js"></script>
+    </head>
+    <body class="custom-bg-img-body pb-4">
+        <header>
+            <nav class="navbar navbar-expand-lg border-bottom border-white custom-bg-navbar">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="./Home.html">
+                        <i class="fa-sharp fa-solid fa-code"></i>
+                        Inicio
+                    </a>
+                    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="./Avisos.html">Avisos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./SobreMi.html">Sobre Mi</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./Materias2025.html">Materias 2025</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./Contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                        <div>
+                            <button type="button" class="btn btn-secondary me-1" onclick="setLightMode();">
+                                <i class="fa-solid fa-sun"></i>
+                                Modo claro
+                            </button>
+                            <button type="button" class="btn btn-secondary ms-1" onclick="setDarkMode();">
+                                <i class="fa-solid fa-moon"></i>
+                                Modo oscuro
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="m-3 pb-5">
+                <h1 class="text-center custom-color-main-card-title border-bottom p-1">Diseño Desarrollo Web</h1>
+                <div class="d-flex flex-wrap mt-4">
+                    <div class="col-sm-12 col-md-6 p-2">
+                        <div class="border border-2 rounded-3 shadow-sm p-3 bg-body-tertiary">
+                            <p class="border-bottom p-1 fw-bold">Fechas de exámenes</p>
+                            <ul class="list-group">
+                                <li class="list-group-item">(29/04/2025) Primer Examen Parcial</li>
+                                <li class="list-group-item">(24/06/2025) Segundo Examen Parcial</li>
+                                <li class="list-group-item">(08/07/2025) Examen Recuperatorio - Examen Final Anticipado</li>
+                                <li class="list-group-item">(22/07/2025) Examen Final Regular</li>
+                            </ul>
+                        </div>
+                        <div class="border border-2 rounded-3 shadow-sm p-3 mt-3 bg-body-tertiary">
+                            <p class="border-bottom p-1 fw-bold">Bibliografía</p>
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <a href="https://virtualbsp.uade.edu.ar/d2l/le/content/43347/viewContent/571944/View" target="_blank">Cronograma Diseño y Desarrollo Web</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="https://virtualbsp.uade.edu.ar/d2l/le/content/43347/viewContent/571938/View" target="_blank">Programa Analítico</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="https://virtualbsp.uade.edu.ar/d2l/le/content/43347/viewContent/571940/View" target="_blank">0.1.1 Política de uso de Foros</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="https://virtualbsp.uade.edu.ar/d2l/le/content/43347/viewContent/571943/View" target="_blank">0.2 Acceso al catálogo de la Biblioteca UADE</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="https://virtualbsp.uade.edu.ar/d2l/le/content/43347/viewContent/571942/View" target="_blank">Videos de las clases grabadas (encuentros sincrónicos)</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="https://virtualbsp.uade.edu.ar/d2l/le/content/43347/viewContent/595928/View" target="_blank">Clase 1 sincrónica 11-</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="https://virtualbsp.uade.edu.ar/d2l/le/content/43347/viewContent/595932/View" target="_blank">Presentación Dydweb (2)</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="https://virtualbsp.uade.edu.ar/d2l/le/content/43347/viewContent/595930/View" target="_blank">Ejemplo de proyectos segundo cuatrimestre 2024</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="https://virtualbsp.uade.edu.ar/d2l/le/content/43347/viewContent/595931/View" target="_blank">La Web 2025</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="https://virtualbsp.uade.edu.ar/d2l/le/content/43347/viewContent/595929/View" target="_blank">Clase 1. Modelos de sitios Web (1)</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="https://virtualbsp.uade.edu.ar/d2l/le/content/43347/viewContent/597451/View" target="_blank">Clase 2: Video de cómo hacer la actividad 1 y 2</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="https://virtualbsp.uade.edu.ar/d2l/le/content/43347/viewContent/597896/View" target="_blank">Clase 2 sincrónica 25-3</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="https://virtualbsp.uade.edu.ar/d2l/le/content/43347/viewContent/597897/View" target="_blank">_Clase 2 UADE (2) (3)</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="https://virtualbsp.uade.edu.ar/d2l/le/content/43347/viewContent/597898/View" target="_blank">Buenas prácticas estructura mapa de un sitio (2)</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="https://virtualbsp.uade.edu.ar/d2l/le/content/43347/viewContent/597899/View" target="_blank">_Clase 2 UADE (2) (3)1</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="https://virtualbsp.uade.edu.ar/d2l/le/content/43347/viewContent/597900/View" target="_blank">Buenas prácticas estructura mapa de un sitio (2)1</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="https://virtualbsp.uade.edu.ar/d2l/le/content/43347/viewContent/599588/View" target="_blank">Clase 3 sincrónica: 8/4</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="https://virtualbsp.uade.edu.ar/d2l/le/content/43347/viewContent/599589/View" target="_blank">clase 3</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="https://virtualbsp.uade.edu.ar/d2l/le/content/43347/viewContent/600407/View" target="_blank">Clase 4 : 15/4</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="https://virtualbsp.uade.edu.ar/d2l/le/content/43347/viewContent/600408/View" target="_blank">Clase 4 sincrónica virtual</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="https://virtualbsp.uade.edu.ar/d2l/le/content/43347/viewContent/600409/View" target="_blank">Tema adicional Introducción a Framework Bootstrap y Tailwind</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="https://virtualbsp.uade.edu.ar/d2l/le/content/43347/viewContent/600410/View" target="_blank">UVA2 obligatoria</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="https://virtualbsp.uade.edu.ar/d2l/le/content/43347/viewContent/571949/View" target="_blank">Guía de lectura: Introducción al desarrollo web 🧭</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="https://virtualbsp.uade.edu.ar/d2l/le/content/43347/Home" target="_blank">Exposición de Experto 🎥</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <span>Ejercitación 📝</span>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="https://virtualbsp.uade.edu.ar/d2l/le/content/43347/viewContent/571952/View" target="_blank">Cuestionario - Verdadero o falso: Integración de HTML 📋</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="https://virtualbsp.uade.edu.ar/d2l/le/content/43347/viewContent/571954/View" target="_blank">Guía de lectura: Diseño de interfaz y experiencia de usuario 🧭</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <span>Exposición de Experto 🎥</span>
+                                </li>
+                                <li class="list-group-item">
+                                    <span>Ejercitación 📝</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 p-2">
+                        <div class="border border-2 rounded-3 shadow-sm p-3 bg-body-tertiary">
+                            <p class="border-bottom p-1 fw-bold">Actividades UVAs</p>
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <a href="https://galoguardia-gh.github.io/Diseno-y-Desarrollo-Web-11842/Guardia_1208219_04042025_IntroaHTML" target="_blank">Ejercicio individual: HTML - Introducción 📝</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="https://galoguardia-gh.github.io/Diseno-y-Desarrollo-Web-11842/Guardia_1208219_29042025_HTMLEtiquetas" target="_blank">Ejercicio individual: HTML - Etiquetas 📝</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="https://galoguardia-gh.github.io/Diseno-y-Desarrollo-Web-11842/Guardia_1208219_01042025_Integraci%C3%B3n" target="_blank">Ejercicio individual: Ejercicio integrador 📝(obligatorio)</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="https://galoguardia-gh.github.io/Diseno-y-Desarrollo-Web-11842/Guardia_1208219_04042025_Formatodetexto" target="_blank">Ejercicio individual: Formato de texto 📝</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="https://galoguardia-gh.github.io/Diseno-y-Desarrollo-Web-11842/Guardia_1208219_29042025_Formatodecajas" target="_blank">Ejercicio individual: Formato de cajas 📝</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="https://galoguardia-gh.github.io/Diseno-y-Desarrollo-Web-11842/Guardia_1208219_29042025_Unidadesdemedida" target="_blank">Ejercicio individual: Unidades de medida 📝</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="https://galoguardia-gh.github.io/Diseno-y-Desarrollo-Web-11842/Guardia_1208219_29042025_GridFlexbox" target="_blank">Ejercicio individual: Grid y Flexbox 📝</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="https://galoguardia-gh.github.io/Diseno-y-Desarrollo-Web-11842/Guardia_1208219_29042025_TPIntegradorUVA2" target="_blank">Trabajo práctico Integrador UVA 2 (obligatorio)</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="text-center p-2 fixed-bottom custom-bg-color-footer-style">
+                Curso: 11842 / Profesora: Patricia Litovicius
+            </div>
+        </footer>
+    </body>
+</html>
